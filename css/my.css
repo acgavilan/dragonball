@@ -1,3 +1,5 @@
+
+/*
 ul{
   list-style: none;
 }
@@ -23,7 +25,7 @@ ul{
 
 .social-media-contact a::after{
   margin: 10px;
-  display: inline-block;  /* you need to put this, that way you can modify the shape of the element */
+  display: inline-block;  /* you need to put this, that way you can modify the shape of the element 
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -37,4 +39,43 @@ ul{
 }
 .twitter::after{
   content: url(./media/twitter.svg);
+}
+
+*/
+
+.imgsize{
+  height: 50vh;
+  width: 60vh;
+}
+.bgcolor{
+  background: rgb(101,25,136);
+  background: linear-gradient(22deg, rgba(101,25,136,1) 0%, rgba(72,0,255,1) 36%, rgba(105,14,108,1) 100%);
+}
+
+h3{
+  color:white;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 70vh;
+}
+
+.videosize{
+  height: 100%; 
+  width: 100%;
+}
+.icons{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color:rgb(119, 198, 243);
+}
+hr{
+  
+  height: 15px;
+  border-style:solid;
+}
+.mar{
+margin-bottom: 200px;
 }

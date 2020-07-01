@@ -7,17 +7,285 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="my.css">
+  
+    <link rel="stylesheet" href="css/mediaelementplayer.min.css">
+    
+    <link rel="stylesheet" href="css/my.css">
     <title></title>
   </head>
-  <body>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+      <!--navigation bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bgcolor fixed-top">
+        <div class="container">
+        <a class="navbar-brand order-1 mr-1" href="#">
+        <img src="img/dragon.png" width="110" height="40"  class=" order-2 mr-1" alt="ball" loading="lazy"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#home">Home</a>
+            <a class="nav-item nav-link" href="#characters">Characters</a>
+            <a class="nav-item nav-link" href="#table">Table<a>
+            <a class="nav-item nav-link" href="#videos">Videos</a>
+            <a class="nav-item nav-link" href="#list">Mailing List</a>
+          </div>
+        </div>
+        </div>
+      </nav>
 
+      <!--main background-->
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/dragon.png"   alt="goku" >
+          </div>
+          <div class="carousel-item">
+            <img src="img/gogeta.jpg"  alt="gogeta">
+          </div>
+          <div class="carousel-item">
+            <img src="img/goku.jpg"  alt="goku" >
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    
+
+      <!--columns -->
+      <div class="container ">
+        <h1 id="characters" class="display-4 text-center">Dragonball Z Characters</h1>
+        <div class="row ">
+
+          <div class="col-md-4">
+            <h3 class="mb-2  text-center bgcolor">Goku</h3>
+            <img src="img/goku.jpg"  class="mb-4 img-fluid " alt="goku">
+            <p class="lead">Son Goku is the main and most loved character in the Dragon Ball saga. 
+               He is in every saga and nearly always plays an important role in the main villain's destruction. 
+               He first appears as Bulma is looking for the Dragon Balls and meets him because he had one of them. 
+               He then goes on a quest with her to find the other Dragon Balls. This is the first part of Goku's life. 
+               He will grow up and marry Chi Chi and have Gohan and Goten with her. He will then fight the invading Saiyans 
+               and destroy Frieza on Planet Namek by becoming a Super Saiyan, destroying the whole planet at the same time. 
+               Then comes the Android's saga in which he will fall in a dangerous state of a mysterious sickness.</p>
+          </div>
+
+          <div class="col-md-4">
+           <h3 class="mb-2  text-center bgcolor">Freeza</h3>
+           <img src="img/freeza.jpg"  class="mb-4 img-fluid img-rounded" alt="freeza">
+           <p class="lead">Frieza is of an unknown race and he runs the Planet Trade Organization. Frieza is the one that destroyed planet Vegeta and almost exterminating the whole Saiyan race. Frieza goes to Namek in order to find the Dragon Balls and wish for immortality. Frieza has four forms. Frieza toys with the Z-Fighters until Goku poses the only real threat to Frieza. Frieza then claims that he has only been using 50% of his true power and not even a Spirit Bomb could kill him. Frieza kills Krillin pushing Goku over the edge and becoming a Super Saiyan.</p>
+
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="mb-2  text-center bgcolor">Gogeta</h3>
+            <img src="img/gogeta.jpg"  class="mb-4 img-fluid" alt="gogeta">
+            <p class="lead">Gogeta is the fusion of Goku and Vegeta by the Fusion Dance. Gogeta is often regarded to be the strongest warrior in the Dragon Ball Z Universe, even stronger than his Portara Fusion counterpart Vegito. Gogeta is very quick and powerful. Gogeta was able to power all the way up to Super Saiyan 4. In his super Saiyan state he was very calm and efficient, but like Vegito, in his Super Sayian 4 form he was very cocky and would toy with his enemies. Vegito also has a great combat tactical mind</p>
+           </div>
+          
+          <div class="col-md-4">
+            <h3 class="mb-2  text-center bgcolor">Gotenks</h3>
+            <img src="img/gotenks.jpg"  class="mb-4 img-fluid imgsize img-rounded" alt="gotenks">
+            <p class="lead">Gotenks is the fusion of Goten and Trunks via the Fusion Dance. This character first appears in the Super Buu Saga and the only purpose of fusing to make Gotenks was to defeat Super Buu. Gotenks is incredibly powerful, powerful enough to defeat Super Buu if it wasn't for his cockiness. Gotenks has the unique ability to go Super Saiyan 3 despite Goten and Trunks not being able to go Super Saiyan 3. Gotenks is later absorbed by Super Buu and Super Buu takes his powers.</p>
+          </div>
+
+          <div class="col-md-4">
+           <h3 class="mb-2 text-center bgcolor">Krillin</h3>
+           <img src="img/krilling.jpg"  class="mb-4 img-fluid imgsize img-rounded" alt="krillin">
+           <p class="lead">Krillin is Goku's best friend. He trained with Goku as a child under the tutelage of Master Roshi. He is one of 2 characters in the series without noses (His daughter marron has no nose until she is a teenager). He is only seen bald until he and android 18 get married which he is then seen with a full head of hair. Krillin is in almost every fight, whether he is of use or not. He has died many times but has been brought back by different means, mainly by the dragon balls.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="mb-2 text-center bgcolor">Vegeta</h3>
+            <img src="img/vageta.jpg"  class="mb-4 img-fluid imgsize img-rounded" alt="vegeta">
+            <p class="lead">Vegeta is the prince of the Saiyans, and the son of King Vegeta. Vegeta served Frieza as a child and eventually broke away after fighting with Goku and refusing to be the second strongest saiyan in the universe. He tries to kill Frieza after training and getting stronger believing that he had reached the form of Super Saiyan, (but failed) after helping Gohan, Goku, and Krillin kill his minions.</p>
+           </div>
+
+          </div>
+
+          <!--Table contens-->
+          <h1 id="table" class="display-4 text-center">Power Levels</h1>
+          <table class="table">
+            <thead class="bgcolor text-white">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Power Level</th>
+                <th scope="col">Special Technique</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Goku</td>
+                <td>1,000,000,000</td>
+                <td>Kamehameha</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Freeza</td>
+                <td>1,000,000</td>
+                <td>Death beam</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>vageta</td>
+                <td>Less than goku haha!</td>
+                <td>Final Flash</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Gogeta</td>
+                <td>Over a billion!</td>
+                <td>Super Kamehameha</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Gotenks</td>
+                <td>unknown</td>
+                <td>Ghost Kamikaze</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Krillin</td>
+                <td>Its puny</td>
+                <td>Destructo Disc</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!--video list-->
+          <h1 id="videos" class="display-4 text-center">Videos</h1>
+          <div class="row ">
+            <div class="col-md-4 mb-2">
+              <video class="videosize" controls
+                 src="media/bubble-sort.mov">
+              </video>
+              </div>
+              <div class="col-md-4 mb-2">
+                <iframe class="videosize" src="https://www.youtube-nocookie.com/embed/R4vjJrGeh1c?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+                <div class="col-md-4 mb-2">
+                  <video class="videosize" controls
+                    src="media/bubble-sort.mov">
+                  </video>
+                  </div>
+
+          </div>
+
+
+          <!--form sing up list-->
+          <!--======================================
+          scroll spy link is here
+          =================================-->
+
+          <h1 id="list" class="display-4 text-center">Fan Mailing List!</h1>
+          <form >
+            <div class="form-row">
+              <div class="form-group col-md-6">
+              <label class="form-control-label sr-only" for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Name" required>
+              
+            </div>
+            <div class="form-group col-md-6">
+              <label class="form-control-label sr-only" for="last name">Last Name:</label>
+              <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label class="form-control-label sr-only" for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+            </div>
+          </div>
+            
+         
+          <h6 >Choose your fovorite character!</h6>
+          
+            <div class="form-check custom-checkbox">
+              <input class="form-check-input" type="checkbox" value="" id="goku" >
+              <label class="form-check-label" for="goku">
+                Goku
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="gogeta" >
+              <label class="form-check-label" for="gogeta">
+                Gogeta
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="freeza" >
+              <label class="form-check-label" for="freeza">
+                Freeza
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="gotenks" >
+              <label class="form-check-label" for="gotenks">
+                Gotenks
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="vegeta">
+              <label class="form-check-label" for="vageta">
+                vegeta
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="krillin">
+              <label class="form-check-label" for="krillin">
+                Krillin
+              </label>
+            </div>
+            <button class="btn bgcolor text-white mt-3" type="submit">Submit</button>
+          </form>
+          
+
+          <!--Footer-->
+         <footer  class="mt-3">
+          <ul class="nav justify-content-center">
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="media/facebook.svg" class="icons"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="media/instagram.svg" class="icons"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="media/twitter.svg" class="icons"></a>
+            </li>
+          </ul>
+         </footer>
+         <hr class="bgcolor">
+        
+      </div>
+
+      
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src ="./js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <script src="js/javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
   </body>
 </html>
